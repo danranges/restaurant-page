@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "TOP Restaurant Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danranges/restaurant-page.git"
+  },
+  "author": "danranges <danranges@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danranges/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/danranges/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
