@@ -1,6 +1,6 @@
-import renderHeader from './header'
+import renderAbout from './about'
 
 (function initialize() {
-    renderHeader()
+    renderAbout()
 
 })()

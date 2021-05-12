@@ -21,9 +21,6 @@ function renderHeader() {
     largeNav.classList.add('large-nav')
     header.appendChild(largeNav)
 
-    const container = document.createElement('div')
-    content.appendChild(container)
-
     const mobileNav = document.createElement('div')
     mobileNav.classList.add('mobile-nav')
     content.appendChild(mobileNav)
@@ -41,7 +38,6 @@ function renderHeader() {
     contact.innerHTML = 'Contact'
 
     function widthCheck() {
-        console.log(document.body.clientWidth)
         if (document.body.clientWidth <= 600) {
             mobileNav.appendChild(about)
             mobileNav.appendChild(nursery)
