@@ -37,6 +37,16 @@ function renderHeader() {
     contact.classList.add('nav')
     contact.innerHTML = 'Contact'
 
+    const container = document.createElement('div')
+    container.classList.add('container')
+    container.id = 'container'
+    content.appendChild(container)
+
+    const footer = document.createElement('div')
+    footer.classList.add('footer')
+    footer.id = 'footer'
+    document.body.appendChild(footer)
+
     function widthCheck() {
         if (document.body.clientWidth <= 600) {
             mobileNav.appendChild(about)
