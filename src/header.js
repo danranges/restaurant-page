@@ -1,5 +1,10 @@
+import renderAbout from './about'
+import renderNursery from './nursery'
+import renderContact from './contact'
+
 function renderHeader() {
     const content = document.getElementById('content')
+    content.innerHTML = ''
     
     const header = document.createElement('div')
     header.classList.add('header')
@@ -72,6 +77,10 @@ function renderHeader() {
 
     hamburger.addEventListener('click', mobileNavVisibility)
     window.addEventListener('resize', widthCheck)
+    about.addEventListener('click', renderAbout)
+    nursery.addEventListener('click', renderNursery)
+    contact.addEventListener('click', renderContact)
+    
 }
 
 export default renderHeader
