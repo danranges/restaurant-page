@@ -3,6 +3,7 @@ import renderNursery from './nursery'
 import renderContact from './contact'
 
 function renderHeader() {
+
     const content = document.getElementById('content')
     content.innerHTML = ''
     

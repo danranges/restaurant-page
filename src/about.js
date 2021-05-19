@@ -13,7 +13,6 @@ function renderAbout() {
     container.appendChild(aboutCopy)
 
     const heroImg  = document.createElement('div')
-    // heroImg.innerHTML = '<img class="hero-img" src="/src/about-hero.jpg"/>'
     heroImg.classList.add('about-hero')
     container.appendChild(heroImg)
     
