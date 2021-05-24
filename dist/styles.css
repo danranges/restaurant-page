@@ -10,7 +10,7 @@ html {
   justify-content: center;
   background-color: #faf4f4;
   background-image: url('assets/background3.jpg');
-  background-size: auto 100%;
+  background-size: auto auto;
   background-repeat: repeat-y;
 }
 
