@@ -34,18 +34,18 @@ function renderNursery () {
         nurseryContainer.appendChild(tile)
     }
 
-    createPlantTile('/src/assets/alocasia.png', 'Alocasia Triangularis', 280)
-    createPlantTile('/src/assets/aloe-vera.png', 'Aloe Vera', 220)
-    createPlantTile('/src/assets/bird-of-paradise.png', 'Bird of Paradise', 480)
-    createPlantTile('/src/assets/fiddle-leaf-fig.png', 'Fiddle Leaf Fig', 390)
-    createPlantTile('/src/assets/monstera.png', 'Monstera Deliciosa', 420)
-    createPlantTile('/src/assets/opuntia.png', 'Prickly Pear Cactus', 200)
-    createPlantTile('/src/assets/peace-lily.png', 'Peace Lily', 210)
-    createPlantTile('/src/assets/pilea.png', 'Pilea Peperomioides', 185)
-    createPlantTile('/src/assets/sempervivum.png', 'Sempervivium "Blue Time"', 145)
-    createPlantTile('/src/assets/spider-plant.png', 'Spider Plant', 170)
-    createPlantTile('/src/assets/snake-plant.png', 'Sansevieria Trifasciata', 310)
-    createPlantTile('/src/assets/zeylonia.png', 'Sansevieria Zeylanica', 325)
+    createPlantTile('/dist/assets/alocasia.png', 'Alocasia Triangularis', 280)
+    createPlantTile('/dist/assets/aloe-vera.png', 'Aloe Vera', 220)
+    createPlantTile('/dist/assets/bird-of-paradise.png', 'Bird of Paradise', 480)
+    createPlantTile('/dist/assets/fiddle-leaf-fig.png', 'Fiddle Leaf Fig', 390)
+    createPlantTile('/dist/assets/monstera.png', 'Monstera Deliciosa', 420)
+    createPlantTile('/dist/assets/opuntia.png', 'Prickly Pear Cactus', 200)
+    createPlantTile('/dist/assets/peace-lily.png', 'Peace Lily', 210)
+    createPlantTile('/dist/assets/pilea.png', 'Pilea Peperomioides', 185)
+    createPlantTile('/dist/assets/sempervivum.png', 'Sempervivium "Blue Time"', 145)
+    createPlantTile('/dist/assets/spider-plant.png', 'Spider Plant', 170)
+    createPlantTile('/dist/assets/snake-plant.png', 'Sansevieria Trifasciata', 310)
+    createPlantTile('/dist/assets/zeylonia.png', 'Sansevieria Zeylanica', 325)
 
 }
 
