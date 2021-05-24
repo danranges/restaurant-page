@@ -57,6 +57,7 @@ h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .hamburger {
