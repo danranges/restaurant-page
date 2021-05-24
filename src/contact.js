@@ -30,23 +30,29 @@ function renderContact () {
 
     const phoneContact = document.createElement('div')
     phoneContact.classList.add('contact-method')
-    phoneContact.innerHTML = `<img src="/src/phone-call.png" class="contact-icon" alt="Phone icon"> <br> <br>`
+    phoneContact.innerHTML = `<img src="/src/assets/phone-call.png" class="contact-icon" alt="Phone icon"> <br> <br>`
     phoneContact.innerHTML += `Call us: <br>(+47) 867 53 090`
     contactMethodsContainer.appendChild(phoneContact)
 
     const emailContact = document.createElement('div')
     emailContact.classList.add('contact-method')
-    emailContact.innerHTML = `<img src="/src/envelope.png" class="contact-icon" alt="Mail icon"> <br> <br>`
+    emailContact.innerHTML = `<img src="/src/assets/envelope.png" class="contact-icon" alt="Mail icon"> <br> <br>`
     emailContact.innerHTML += 'Email us: <br> KinderGarden@example.com'
     contactMethodsContainer.appendChild(emailContact)
     
     const visitContact = document.createElement('div')
     visitContact.classList.add('contact-method')
-    visitContact.innerHTML = `<img src="/src/shop.png" class="contact-icon" alt="Shop icon"> <br> <br>`
+    visitContact.innerHTML = `<img src="/src/assets/shop.png" class="contact-icon" alt="Shop icon"> <br> <br>`
     visitContact.innerHTML += `Visit us:<br> 
                                Kulebønnerveien 101<br>
                                7770 Flatanger, Norge`
     contactMethodsContainer.appendChild(visitContact)
+
+    const iconAttrContainer = document.createElement('div')
+    iconAttrContainer.classList.add('icon-attributes')
+    iconAttrContainer.innerHTML = `<div>Contact icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                                   <div>Plant icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`
+    content.appendChild(iconAttrContainer)
 }
 
 export default renderContact

@@ -3,7 +3,7 @@ import renderNursery from './nursery'
 import renderContact from './contact'
 
 function renderHeader() {
-
+    
     const content = document.getElementById('content')
     content.innerHTML = ''
     
@@ -47,11 +47,6 @@ function renderHeader() {
     container.classList.add('container')
     container.id = 'container'
     content.appendChild(container)
-
-    const footer = document.createElement('div')
-    footer.classList.add('footer')
-    footer.id = 'footer'
-    document.body.appendChild(footer)
 
     function widthCheck() {
         if (document.body.clientWidth <= 600) {
