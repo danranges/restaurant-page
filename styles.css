@@ -9,7 +9,7 @@ html {
   display: flex;
   justify-content: center;
   background-color: #faf4f4;
-  background-image: url('/dist/assets/background3.jpg');
+  background-image: url('dist/assets/background3.JPG');
   background-size: auto 100%;
   background-repeat: repeat-y;
 }
@@ -133,7 +133,7 @@ h1 {
 .about-hero {
   display: flex;
   justify-content: center;
-  background-image: url('/dist/assets/about-hero.jpg');
+  background-image: url('dist/assets/about-hero.JPG');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
