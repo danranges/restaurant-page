@@ -73,6 +73,7 @@ function renderHeader() {
 
     hamburger.addEventListener('click', mobileNavVisibility)
     window.addEventListener('resize', widthCheck)
+    title.addEventListener('click', renderAbout)
     about.addEventListener('click', renderAbout)
     nursery.addEventListener('click', renderNursery)
     contact.addEventListener('click', renderContact)
